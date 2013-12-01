@@ -1,4 +1,4 @@
-gulp-header
+gulp-special-html
 ===========
 
 Gulp extension to convert special characters to UTF-8.
