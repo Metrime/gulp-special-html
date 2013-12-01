@@ -1,0 +1,26 @@
+{
+  "name": "gulp-special-html",
+  "version": "0.0.1",
+  "description": "Converts special characters to UTF-8.",
+  "license": "MIT",
+  "author":"Michael Ostermann <metrime@icloud.com>",
+  "repository": "https://github.com/Metrime/gulp-special-html.git",
+  "keywords":[
+  	"gulpplugin",
+  	"special",
+    "characters",
+    "html",
+    "utf8",
+    "replace",
+    "escape"
+  ],
+  "dependencies": {
+    "special-html":"~0.0.1",
+    "event-stream": "~3.0.15"
+  },
+  "main":"index.js",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
