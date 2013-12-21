@@ -5,7 +5,7 @@ module.exports = function(){
   'use strict';
 
   return es.map(function(file,callback){
-  	file.contents = special(String(file.contents))
+  	file.contents = new Buffer(special(String(file.contents)))
   	callback(null,file)
   });
 
