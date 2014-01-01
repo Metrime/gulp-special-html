@@ -1,6 +1,6 @@
 {
   "name": "gulp-special-html",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Converts special characters to UTF-8.",
   "license": "MIT",
   "author":"Michael Ostermann <metrime@icloud.com>",
@@ -16,7 +16,7 @@
   ],
   "dependencies": {
     "special-html":"~0.0.1",
-    "event-stream": "~3.0.15"
+    "map-stream": "~0.0.4"
   },
   "main":"index.js",
   "devDependencies": {
