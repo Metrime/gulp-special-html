@@ -1,4 +1,4 @@
-var es = require('map-stream');
+var map = require('map-stream');
 var special = require('special-html');
 
 module.exports = function(){
